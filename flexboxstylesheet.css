@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Noto+Sans+Cypro+Minoan&family=Rajdhani&family=Roboto:ital,wght@1,100&display=swap");
+
+body {
+  background-image: url("backgroundtrippin1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  color: black;
+}
+.active {
+  background-color: blue;
+}
+header {
+  display: flex;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  color: white;
+  padding-block-end: 10%;
+  text-align: center=center;
+  justify-content: space-evenly;
+  <title>Centered Text</title>
+<style>
+h4 {
+  text-align: center;
+}
+}
+
+nav {
+  height: 80px;
+  background: #0.0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc(100vw - 13000px) / 2;
+  font-size: 1rem;
+  border: solid 1px #fff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  :hover {
+    color: #fff;
+    background: #004AAD;
+  }
+ 
+}
+/* This area feautures the logo text(if using image remains inactive) and sets the paramaters and style of font */
+.logo {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: bold;
+  padding:none;
+}
+/* This area changes the paragraph text to center on the page */
+p.centered {
+  text-align: center;
+  color: #000;
+  font-size: 1.2rem;
+  font-style:bold;
+}
+
+h4.centered {
+  text-align: center;
+}
+
+h4.centered  {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  quotes: "“" "”";
+  /* or, can use single quotes: '‘' '’' */
+  /* to add more space between the quote marks, use */
+  /* quotes-space: 0.2em; */
+}
+
+/* This area features the navigation bar and sets its papameters in order to display as desired on the page, change settings to adapt */
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: solid 1px #fff;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50px;
+/* This area adds a highlight to the navigation items and changes color so the tabs highlight when pointed at*/
+  :hover {
+    color: #004AAD;
+    background: #000;
+  }
+}
+/* This area adapts the navigation items in the japan page of the site*/
+nav japan.html {
+  text-decoration: none;
+  color: #000;
+  padding: 1.5rem;
+}
+.hero{
+  background:#004AAD;
+}
+/* This area adapts the navigation items in the greece page of the site*/
+nav greece.html {
+  text-decoration: none;
+  color: #000;
+  padding: 1.5rem;
+}
+.hero{
+  background:#fff;
+}
+/* This area sets the paramaters for a container within the page*/
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  padding: 3rem calc(100vw - 13000px);
+}
+.row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #000;
+  padding: 0rem 2rem;
+}
+
+.row-center h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.row-center p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+button {
+  padding: 1rem 3rem;
+  background-color:#00AD93;
+  font-size: 1rem;
+  border: solid 1px #000;
+  color: black;
+  cursor: pointer;
+  border-radius: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+
+}
+
+button:hover {
+  background: #004AAD;
+  color: #fff
+  href: ./japan.html;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+.hero-image{
+  width: 100%;
+  height: 100%;
+  align-center;
+}
+@media screen and (max-width:786px){
+  .hero-container{
+    grid-template-columns: 1fr;
+  }
+}
+/* This area changes the style of a container with an image*/
+
+.container {
+  width: 33.33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2 auto;
+  padding: 5%;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* This area changes the style of a second container with an image must reflect on html page with correct tag container1*/
+.container1 {
+  width: 33.33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2 auto;
+  padding: 5%;
+  font-family: 'Inter', sans-serif;
+}
+/* This area changes the style of the footer area of the site */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* This area changes the style of an image using flex to transform */
+
+
+
+img {
+  
+    display:flex;
+    justify-content: space-evenly;
+    color: black; 
+    font-family: 'Inter', sans-serif;
+    font-size:"21";
+    text-aligh:space-evenly;
+    flex-wrap: wrap;
+    hover: black; */
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.social-icons a {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  word-break: break-all;
+}
+
+.social-icons span  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  background-image: url( social-icons.png );
+}
+
+.social-icons li:nth-child(2)  span {
+  background-position: -48px 0;
+}
+
+.social-icons li:nth-child(3) span {
+  background-position: -96px 0;
+}
+
+.social-icons li:nth-child(4) span {
+  background-position: 0 -48px;
+}
+
+.social-icons li:nth-child(5) span  {
+  background-position: -48px -48px;
+}
+
+.social-icons li:nth-child(6) span  {
+  background-position: -96px -48px;
+}
+
+
+
+  
+
