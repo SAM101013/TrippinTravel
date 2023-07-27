@@ -9,7 +9,6 @@ greece.html The greece.html page includes example text about Greece, such as its
 
 japan.html The japan.html page includes information about Japan, such as its history, culture, and tourism. It also includes a button that links to the index.html page.
 
-Tjere are two additional pages which link from Greece.html and Japan.html serving as example of possible applications of the button
 
 FlexboxStylesheet.css
 
