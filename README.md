@@ -14,8 +14,8 @@ FlexboxStylesheet.css
 
 This stylesheet contains all the styles, fonts and colors used creating this website.
 
-Images All images used making this website are free to use and sourced via unsplash which means no copyright issues will occur.
+Images All images used making this website are free to use and sourced via unsplash which means no copyright issues should occur.
 
-To run the website To run the website, you will need to have a web server installed. Once you have a web server installed, you can upload the files to the web server. Then, you can open the website in a web browser.
+To run the website, you will need to have a web server installed. Once you have a web server installed, you can upload the files to the web server. Then, you can open the website in a web browser.
 
 Author This website was created by S C W; my first web build project with CodeNation 2023
